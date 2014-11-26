@@ -1,7 +1,9 @@
 #include "node.h"
 
-Node::Node(Item *c_item, Node *c_next): item(c_item), nextNode(c_node)
+Node::Node(Item *c_item, Node *c_next)
 {
+    item = c_item;
+    nextNode = c_next;
 }
 
 void Node::setNext(Node* c_next)
